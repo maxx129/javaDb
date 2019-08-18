@@ -6,35 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34cc57c0-fd6d-4b3a-8fa4-b4fda8a342ae" name="Default Changelist" comment="140819 1723">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/abstractFactory/AbstractFactoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/TestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMethod2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMethod2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMothod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMothod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMethod3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMethod3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/BlackChocolate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/CargoPlane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/Chocolate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/CivilPlane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/CombatPlane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/CreatorFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/FactoryMethod2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/FactoryMothod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/Plane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/PlaneFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/WhiteChocolate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/servlet/UsersServletWithDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/maxx129/servlet/UsersServletWithDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/db-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/db-1.0/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/dao/UsersDaoJdbcTemplateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/dao/UsersDaoJdbcTemplateImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/servlet/UsersServletWithDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/servlet/UsersServletWithDao.class" afterDir="false" />
-    </list>
+    <list default="true" id="34cc57c0-fd6d-4b3a-8fa4-b4fda8a342ae" name="Default Changelist" comment="140819 1723" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,7 +85,20 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -160,12 +145,12 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/test/FactoryMothod.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMethod2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMothod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMethod3.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/TestServlet.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/abstractFactory/AbstractFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java" />
       </list>
     </option>
   </component>
@@ -176,7 +161,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -208,52 +193,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="maxx129" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="maxx129" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -264,7 +203,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566124208721" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566124218468" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -473,7 +412,7 @@
       <workItem from="1565787088074" duration="2822000" />
       <workItem from="1565945708403" duration="2490000" />
       <workItem from="1565954551446" duration="5252000" />
-      <workItem from="1566022882286" duration="3937000" />
+      <workItem from="1566022882286" duration="4734000" />
     </task>
     <task id="LOCAL-00001" summary="160819 1530">
       <created>1565958669007</created>
@@ -486,22 +425,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97112000" />
+    <option name="totallyTimeSpent" value="97909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6904762" visible="true" weight="0.15245202" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6903226" visible="true" weight="0.15245202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.30952382" side_tool="true" visible="true" weight="0.15245202" />
+      <window_info id="Web" order="7" sideWeight="0.30967742" side_tool="true" visible="true" weight="0.15245202" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -775,16 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -827,6 +757,16 @@
             <element signature="e#1529#1530#0" expanded="true" />
             <element signature="e#1566#1567#0" expanded="true" />
             <element signature="e#1587#1588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
