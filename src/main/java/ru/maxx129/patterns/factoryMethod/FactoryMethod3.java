@@ -1,9 +1,13 @@
 package ru.maxx129.patterns.factoryMethod;
 
 public class FactoryMethod3 {
+    public static void main(String[] args) {
+        Developer dev1 = new PanelDeveloper("Шараш Монтаж");
+        House house1 = dev1.create();
+    }
 
-    Developer dev1 = new PanelDeveloper("Шараш Монтаж");
-    House house1 = dev1.create();
+
+
 }
 
 abstract class Developer {

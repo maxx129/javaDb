@@ -31,7 +31,7 @@ public class UsersServletWithDao extends HttpServlet {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
 
         try {
-            properties.load(new FileInputStream("C:/Users/Max/IdeaProjects/db/src/main/resources/db.properties"));
+            properties.load(new FileInputStream("/resources/db.properties"));
             String dbUrl = properties.getProperty("db.url");
             String dbUserName = properties.getProperty("db.username");
             String dbPassword = properties.getProperty("db.password");

@@ -7,8 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34cc57c0-fd6d-4b3a-8fa4-b4fda8a342ae" name="Default Changelist" comment="140819 1723">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMethod2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/abstractFactory/AbstractFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/test.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMethod2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMethod2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMothod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMothod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMethod3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMethod3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/BlackChocolate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/CargoPlane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/Chocolate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/CivilPlane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/CombatPlane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/CreatorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/FactoryMethod2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/FactoryMothod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/Plane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/PlaneFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/WhiteChocolate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/servlet/UsersServletWithDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/maxx129/servlet/UsersServletWithDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/db-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/db-1.0/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/dao/UsersDaoJdbcTemplateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/dao/UsersDaoJdbcTemplateImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/servlet/UsersServletWithDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/servlet/UsersServletWithDao.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +42,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/javaDb$FactoryMothod.ic" NAME="FactoryMothod Coverage Results" MODIFIED="1565958931411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.maxx129.patterns.factoryMethod.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -38,12 +68,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -75,46 +99,27 @@
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="user_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="users: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMothod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMethod2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Jsp File" />
         <option value="Class" />
       </list>
@@ -131,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_2.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_3.sql" />
         <option value="$PROJECT_DIR$/src/main/java/db.properties" />
@@ -147,7 +151,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/dao/UsersDaoJdbcImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/model/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/model/User.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
@@ -155,8 +158,14 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/dao/UsersDaoJdbcTemplateImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/Test2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/test/FactoryMothod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMothod.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMethod2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMothod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMethod3.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/TestServlet.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/abstractFactory/AbstractFactoryImpl.java" />
       </list>
     </option>
   </component>
@@ -167,7 +176,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -179,65 +188,67 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="maxx129" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="maxx129" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maxx129" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -247,17 +258,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565792659967" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566124208721" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -268,6 +278,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.maxx129.servlet" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Max\IdeaProjects\db\src\main\resources" />
     </key>
@@ -284,13 +297,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FactoryMethod2">
-    <configuration name="FactoryMethod2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.maxx129.patterns.FactoryMethod2" />
+  <component name="RunManager" selected="Tomcat Server.Tommy">
+    <configuration name="AbstractFactoryImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.maxx129.patterns.abstractFactory.AbstractFactoryImpl" />
       <module name="db" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.maxx129.patterns.*" />
+          <option name="PATTERN" value="ru.maxx129.patterns.abstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,12 +311,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMothod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.maxx129.patterns.FactoryMothod" />
+    <configuration name="FactoryMethod2" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.maxx129.patterns.factoryMethod.FactoryMethod2" />
       <module name="db" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.maxx129.patterns.*" />
+          <option name="PATTERN" value="ru.maxx129.patterns.factoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryMethod3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.maxx129.patterns.factoryMethod.FactoryMethod3" />
+      <module name="db" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.maxx129.patterns.factoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryMothod" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.maxx129.patterns.factoryMethod.FactoryMothod" />
+      <module name="db" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.maxx129.patterns.factoryMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,7 +355,7 @@
       <module name="db" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.maxx129.patterns.*" />
+          <option name="PATTERN" value="ru.maxx129.patterns.factoryMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,7 +368,7 @@
       <deployment>
         <artifact name="db:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/db_war" />
+            <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
@@ -396,10 +435,18 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.FactoryMethod2" />
+      <item itemvalue="Application.FactoryMothod" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.FactoryMethod3" />
+      <item itemvalue="Tomcat Server.Tommy" />
+      <item itemvalue="Application.AbstractFactoryImpl" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FactoryMethod2" />
-        <item itemvalue="Application.FactoryMothod" />
+        <item itemvalue="Application.AbstractFactoryImpl" />
+        <item itemvalue="Application.FactoryMethod3" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -424,24 +471,34 @@
       <workItem from="1562219479607" duration="12156000" />
       <workItem from="1565671063416" duration="5077000" />
       <workItem from="1565787088074" duration="2822000" />
+      <workItem from="1565945708403" duration="2490000" />
+      <workItem from="1565954551446" duration="5252000" />
+      <workItem from="1566022882286" duration="3937000" />
     </task>
+    <task id="LOCAL-00001" summary="160819 1530">
+      <created>1565958669007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565958669007</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85433000" />
+    <option name="totallyTimeSpent" value="97112000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6948052" visible="true" weight="0.14925373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6904762" visible="true" weight="0.15245202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.3051948" side_tool="true" visible="true" weight="0.14925373" />
+      <window_info id="Web" order="7" sideWeight="0.30952382" side_tool="true" visible="true" weight="0.15245202" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
@@ -450,7 +507,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32900432" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="8" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32900432" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -465,9 +522,10 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.08901919" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.4983871" visible="true" weight="0.11567164" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5016129" side_tool="true" visible="true" weight="0.11567164" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +533,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="140819 1723" />
-    <option name="LAST_COMMIT_MESSAGE" value="140819 1723" />
+    <MESSAGE value="160819 1530" />
+    <option name="LAST_COMMIT_MESSAGE" value="160819 1530" />
   </component>
   <component name="editorHistoryManager">
     <entry file="das://22be9c4b-ffb2-4e15-872a-8b91385ddd9a/role/postgres">
@@ -491,16 +550,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_1.sql" />
     <entry file="das://22be9c4b-ffb2-4e15-872a-8b91385ddd9a/database/postgres/schema/public/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -508,13 +558,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="63" selection-start-column="63" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_2.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -522,75 +566,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_3.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jspExamples/src/main/java/ru/maxx129/servlets/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/Servlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="168" column="22" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1230">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_4.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/GenericServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_3.sql" />
+    <entry file="file://$PROJECT_DIR$/../jspExamples/src/main/java/ru/maxx129/servlets/LoginServlet.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/Servlet.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletConfig.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/Serializable.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Properties.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/FileInputStream.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpServlet.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletContext.class" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_4.sql" />
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/GenericServlet.class" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/home.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -605,20 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/signUp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="10" lean-forward="true" selection-start-line="34" selection-end-line="37" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -650,20 +622,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://22be9c4b-ffb2-4e15-872a-8b91385ddd9a/database/user_db/schema/public/table/cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_5.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="81" selection-start-column="81" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_5.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -691,18 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1562226689675" expanded="false" signature="29:634" ph="..." />
-            <marker date="1562226689675" expanded="true" signature="964:1352" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/dao/UsersDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -713,20 +660,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/Connection.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/dao/UsersDaoJdbcImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-221">
@@ -747,32 +681,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1561531625673" expanded="true" signature="797:798" ph="..." />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/dao/UsersDaoJdbcTemplateImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        <state relative-caret-position="198">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1562304513228" expanded="false" signature="0:308" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/Test2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMothod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="383">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -783,27 +715,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMothod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMethod2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMethod4.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMethod3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMethod2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/signUp.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="425">
+          <caret line="37" column="10" selection-start-line="34" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://22be9c4b-ffb2-4e15-872a-8b91385ddd9a/database/user_db/schema/public/table/cars">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/TestServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/abstractFactory/AbstractFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
           </folding>
         </state>
       </provider>
