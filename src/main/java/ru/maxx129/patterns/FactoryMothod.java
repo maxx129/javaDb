@@ -13,7 +13,6 @@ interface Chocolate {
 class BlackChocolate implements Chocolate {
     private final String type = "Black";
 
-    @Override
     public void printType() {
         System.out.println(type);
     }
@@ -22,7 +21,7 @@ class BlackChocolate implements Chocolate {
 class WhiteChocolate implements Chocolate {
     private final String type = "White";
 
-    @Override
+
     public void printType() {
         System.out.println(type);
     }
@@ -61,7 +60,7 @@ public class FactoryMothod {
 
     public static void main(String[] args) {
         List<Chocolate> chocolate = new ArrayList();
-        Factory factory = new CreatorFactory(2);
+        Factory factory = new CreatorFactory(1);
         factory.create().printType();
     }
 }
