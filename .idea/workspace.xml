@@ -6,25 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="34cc57c0-fd6d-4b3a-8fa4-b4fda8a342ae" name="Default Changelist" comment="">
+    <list default="true" id="34cc57c0-fd6d-4b3a-8fa4-b4fda8a342ae" name="Default Changelist" comment="140819 1723">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMothod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMothod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/db.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/BlackChocolate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/BlackChocolate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/CreatorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/CreatorFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/Factory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/FactoryMothod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/FactoryMothod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/WhiteChocolate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/maxx129/patterns/WhiteChocolate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/db-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/db-1.0/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/dao/UsersDaoJdbcTemplateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/dao/UsersDaoJdbcTemplateImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/db-1.0/WEB-INF/classes/ru/maxx129/model/User.class" afterDir="false" />
     </list>
-=======
-    <list default="true" id="34cc57c0-fd6d-4b3a-8fa4-b4fda8a342ae" name="Default Changelist" comment="140819 1723" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,10 +89,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/TestServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,49 +101,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/TestServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/GenericServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/Servlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -177,8 +120,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>firstName</find>
-      <find>de</find>
-      <find>des</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -211,16 +152,12 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/test/FactoryMothod.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMethod2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMothod.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/TestServlet.java" />
-=======
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/factoryMethod/FactoryMethod3.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/TestServlet.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/abstractFactory/AbstractFactoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
       </list>
     </option>
   </component>
@@ -231,7 +168,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -239,75 +176,21 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="ProjectPane">
+        <subPane>
           <expand>
             <path>
-<<<<<<< HEAD
-              <item name="javaDb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="db" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="javaDb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="db" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javaDb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="db" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javaDb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="db" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javaDb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="db" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ru" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javaDb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="db" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ru" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maxx129" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javaDb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="db" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ru" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maxx129" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javaDb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="db" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ru" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maxx129" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="servlet" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-=======
               <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaDb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
@@ -319,25 +202,44 @@
               <item name="javaDb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
+            </path>
+            <path>
+              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maxx129" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaDb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maxx129" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566117550638" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566124218468" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566150384558" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -371,10 +273,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tommy">
-<<<<<<< HEAD
-    <configuration name="FactoryMothod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.maxx129.patterns.FactoryMothod" />
-=======
     <configuration name="AbstractFactoryImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.maxx129.patterns.abstractFactory.AbstractFactoryImpl" />
       <module name="db" />
@@ -390,7 +288,6 @@
     </configuration>
     <configuration name="FactoryMethod2" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.maxx129.patterns.factoryMethod.FactoryMethod2" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
       <module name="db" />
       <extension name="coverage">
         <pattern>
@@ -518,8 +415,8 @@
       <item itemvalue="Application.FactoryMothod" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.FactoryMethod3" />
-      <item itemvalue="Tomcat Server.Tommy" />
       <item itemvalue="Application.AbstractFactoryImpl" />
+      <item itemvalue="Tomcat Server.Tommy" />
     </list>
     <recent_temporary>
       <list>
@@ -548,15 +445,11 @@
       <workItem from="1562217610515" duration="1733000" />
       <workItem from="1562219479607" duration="12156000" />
       <workItem from="1565671063416" duration="5077000" />
-<<<<<<< HEAD
-      <workItem from="1565714930490" duration="1611000" />
-      <workItem from="1566035402202" duration="3223000" />
-=======
       <workItem from="1565787088074" duration="2822000" />
       <workItem from="1565945708403" duration="2490000" />
       <workItem from="1565954551446" duration="5252000" />
-      <workItem from="1566022882286" duration="4734000" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
+      <workItem from="1566022882286" duration="6209000" />
+      <workItem from="1566452904476" duration="248000" />
     </task>
     <task id="LOCAL-00001" summary="160819 1530">
       <created>1565958669007</created>
@@ -569,39 +462,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="87445000" />
+    <option name="totallyTimeSpent" value="99632000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69409937" visible="true" weight="0.20711975" />
-=======
-    <option name="totallyTimeSpent" value="97909000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6903226" visible="true" weight="0.15245202" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68939394" visible="true" weight="0.15405117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
-<<<<<<< HEAD
-      <window_info id="Web" order="7" sideWeight="0.30590063" side_tool="true" weight="0.2038835" />
+      <window_info id="Web" order="7" sideWeight="0.31060606" side_tool="true" visible="true" weight="0.15405117" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32763976" />
-=======
-      <window_info id="Web" order="7" sideWeight="0.30967742" side_tool="true" visible="true" weight="0.15245202" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -611,7 +488,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32900432" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32763976" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32900432" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -622,11 +499,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-<<<<<<< HEAD
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.0881877" />
-=======
       <window_info anchor="right" id="Database" order="6" sideWeight="0.4983871" visible="true" weight="0.11567164" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5016129" side_tool="true" visible="true" weight="0.11567164" />
@@ -655,10 +528,6 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_1.sql" />
-<<<<<<< HEAD
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console.sql" />
-=======
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
     <entry file="das://22be9c4b-ffb2-4e15-872a-8b91385ddd9a/database/postgres/schema/public/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -676,44 +545,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_3.sql" />
     <entry file="file://$PROJECT_DIR$/../jspExamples/src/main/java/ru/maxx129/servlets/LoginServlet.java" />
-<<<<<<< HEAD
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="168" column="22" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1230">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_4.sql" />
-=======
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/Servlet.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletConfig.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/Serializable.java" />
@@ -723,7 +554,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletContext.class" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_4.sql" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/GenericServlet.class" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/home.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -741,24 +571,10 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/signUp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="10" lean-forward="true" selection-start-line="34" selection-end-line="37" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-=======
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
         </state>
       </provider>
     </entry>
@@ -783,16 +599,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="das://22be9c4b-ffb2-4e15-872a-8b91385ddd9a/database/user_db/schema/public/table/cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-=======
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22be9c4b-ffb2-4e15-872a-8b91385ddd9a/console_5.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -822,8 +628,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/dao/UsersDao.java">
-<<<<<<< HEAD
-=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
@@ -835,7 +639,6 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/Connection.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/dao/UsersDaoJdbcImpl.java">
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-221">
           <caret line="33" column="5" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="33" selection-end-column="5" />
@@ -864,16 +667,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/dao/UsersDaoJdbcTemplateImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="-221">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="33" selection-end-column="5" />
-=======
         <state relative-caret-position="198">
           <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
         </state>
       </provider>
     </entry>
@@ -926,53 +724,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/dao/UsersDaoJdbcTemplateImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/FactoryMothod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
-=======
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/signUp.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1008,44 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/TestServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/Servlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/GenericServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/TestServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/patterns/abstractFactory/AbstractFactoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1077,14 +790,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/UsersServletWithDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
->>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
+        <state relative-caret-position="204">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/maxx129/servlet/TestServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
