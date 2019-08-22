@@ -1,4 +1,4 @@
-package ru.maxx129.patterns;
+package ru.maxx129.patterns.factoryMethod;
 
 import java.util.ArrayList;
 import java.util.List;
