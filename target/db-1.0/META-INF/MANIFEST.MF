@@ -1,5 +1,8 @@
 Manifest-Version: 1.0
-Built-By: Max
+<<<<<<< HEAD
+Built-By: max
+=======
+Built-By: Anton
+>>>>>>> 927f1c84733786ebb30b93e0ba8706c6892fe451
 Created-By: IntelliJ IDEA
 Build-Jdk: 1.8
-

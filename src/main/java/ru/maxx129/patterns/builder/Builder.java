@@ -21,5 +21,5 @@ class Bread {
     public Salt salt;
     public Additives additives;
 
-    
+
 }
